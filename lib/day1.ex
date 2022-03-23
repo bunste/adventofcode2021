@@ -1,4 +1,5 @@
 defmodule AdventOfCode.Day1 do
+  # Count how many times a list element is bigger than its direct predecessor
   def increases(list, window_size \\ 1) do
     list
     |> preprocess(window_size)
